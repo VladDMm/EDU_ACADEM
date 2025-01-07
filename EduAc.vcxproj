@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{565AD062-C40F-4DCA-836B-E5A775F8E758}</ProjectGuid>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>EduAc</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files\OpenSSLWin64\include\openssl;C:\Program Files\OpenSSLWin64\include;C:\Program Files\MariaDB\MariaDB Connector C 64-bit\include;C:\Program Files\MariaDB\MariaDB C++ Connector 64-bit\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libcrypto.lib;libssl.lib;mariadbcpp.lib;libmariadb.lib;</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+      <AdditionalLibraryDirectories>C:\Program Files\OpenSSLWin64\lib\VC\x64\MDd;C:\Program Files\OpenSSLWin64\lib\VC\x64\MD;C:\Program Files\MariaDB\MariaDB Connector C 64-bit\lib;C:\Program Files\MariaDB\MariaDB C++ Connector 64-bit;C:\Program Files\MariaDB 11.4\lib</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files\OpenSSLWin64\include\openssl;C:\Program Files\OpenSSLWin64\include;C:\Program Files\MariaDB\MariaDB Connector C 64-bit\include;C:\Program Files\MariaDB\MariaDB C++ Connector 64-bit\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libcrypto.lib;libssl.lib;mariadbcpp.lib;libmariadb.lib;</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+      <AdditionalLibraryDirectories>C:\Program Files\OpenSSLWin64\lib\VC\x64\MDd;C:\Program Files\OpenSSLWin64\lib\VC\x64\MD;C:\Program Files\MariaDB\MariaDB Connector C 64-bit\lib;C:\Program Files\MariaDB\MariaDB C++ Connector 64-bit;C:\Program Files\MariaDB 11.4\lib</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files\OpenSSLWin64\include\openssl;C:\Program Files\OpenSSLWin64\include;C:\Program Files\MariaDB\MariaDB Connector C 64-bit\include;C:\Program Files\MariaDB\MariaDB C++ Connector 64-bit\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libcrypto.lib;libssl.lib;mariadbcpp.lib;libmariadb.lib;</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+      <AdditionalLibraryDirectories>C:\Program Files\OpenSSLWin64\lib\VC\x64\MDd;C:\Program Files\OpenSSLWin64\lib\VC\x64\MD;C:\Program Files\MariaDB\MariaDB Connector C 64-bit\lib;C:\Program Files\MariaDB\MariaDB C++ Connector 64-bit;C:\Program Files\MariaDB 11.4\lib</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files\OpenSSLWin64\include\openssl;C:\Program Files\OpenSSLWin64\include;C:\Program Files\MariaDB\MariaDB Connector C 64-bit\include;C:\Program Files\MariaDB\MariaDB C++ Connector 64-bit\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libcrypto.lib;libssl.lib;mariadbcpp.lib;libmariadb.lib;</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+      <AdditionalLibraryDirectories>C:\Program Files\OpenSSLWin64\lib\VC\x64\MDd;C:\Program Files\OpenSSLWin64\lib\VC\x64\MD;C:\Program Files\MariaDB\MariaDB Connector C 64-bit\lib;C:\Program Files\MariaDB\MariaDB C++ Connector 64-bit;C:\Program Files\MariaDB 11.4\lib</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Absente.cpp" />
+    <ClCompile Include="academic_records.cpp" />
+    <ClCompile Include="AddAbsForm.cpp" />
+    <ClCompile Include="AddAdminForm.cpp" />
+    <ClCompile Include="AddCourseForm.cpp" />
+    <ClCompile Include="AddDepartForm.cpp" />
+    <ClCompile Include="AddGroupForm.cpp" />
+    <ClCompile Include="AddMarkForm.cpp" />
+    <ClCompile Include="AddProfForm.cpp" />
+    <ClCompile Include="AddStudForm.cpp" />
+    <ClCompile Include="Admin.cpp" />
+    <ClCompile Include="Catedra.cpp" />
+    <ClCompile Include="Curs.cpp" />
+    <ClCompile Include="DatabaseConnection.cpp" />
+    <ClCompile Include="EditDepartForm.cpp" />
+    <ClCompile Include="EditProfForm.cpp" />
+    <ClCompile Include="Grupa.cpp" />
+    <ClCompile Include="LoginForm.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MenuForm.cpp" />
+    <ClCompile Include="Nota.cpp" />
+    <ClCompile Include="Professor.cpp" />
+    <ClCompile Include="Student.cpp" />
+    <ClCompile Include="SystemManagement.cpp" />
+    <ClCompile Include="User.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Absente.h" />
+    <ClInclude Include="academic_records.h" />
+    <ClInclude Include="AddAbsForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AddAdminForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AddCourseForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AddDepartForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AddGroupForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AddMarkForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AddProfForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AddStudForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Admin.h" />
+    <ClInclude Include="Catedra.h" />
+    <ClInclude Include="Curs.h" />
+    <ClInclude Include="DatabaseConnection.h" />
+    <ClInclude Include="EditDepartForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="EditProfForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Grupa.h" />
+    <ClInclude Include="IncludesCentral.h" />
+    <ClInclude Include="LoginForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MenuForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Nota.h" />
+    <ClInclude Include="Professor.h" />
+    <ClInclude Include="Student.h" />
+    <ClInclude Include="SystemManagement.h" />
+    <ClInclude Include="User.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AddDepartForm.resx">
+      <DependentUpon>AddDepartForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddProfForm.resx">
+      <DependentUpon>AddProfForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditDepartForm.resx">
+      <DependentUpon>EditDepartForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditProfForm.resx">
+      <DependentUpon>EditProfForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuForm.resx">
+      <DependentUpon>MenuForm.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon2.ico" />
+    <Image Include="ico\add_admin.png" />
+    <Image Include="ico\add_group.png" />
+    <Image Include="ico\add_student.png" />
+    <Image Include="ico\add_teacher.png" />
+    <Image Include="ico\bg.jpg" />
+    <Image Include="ico\collapse-all-icon.png" />
+    <Image Include="ico\create-user-icon.png" />
+    <Image Include="ico\cross.png" />
+    <Image Include="ico\enrollment-icon.png" />
+    <Image Include="ico\expand-all-icon.png" />
+    <Image Include="ico\group.png" />
+    <Image Include="ico\padlock.png" />
+    <Image Include="ico\read-book-icon.png" />
+    <Image Include="ico\remove.png" />
+    <Image Include="ico\result-a-plus-icon.png" />
+    <Image Include="ico\specialty.png" />
+    <Image Include="ico\student.png" />
+    <Image Include="ico\teacher.png" />
+    <Image Include="ico\user.png" />
+    <Image Include="ico\verify-icon.png" />
+    <Image Include="ico\view.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

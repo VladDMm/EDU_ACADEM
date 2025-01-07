@@ -1,0 +1,185 @@
+﻿  Absente.cpp
+c:\users\vladoss\source\repos\eduac\absente.h(22): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: see declaration of 'localtime'
+c:\users\vladoss\source\repos\eduac\nota.h(16): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: see declaration of 'localtime'
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(36): warning C4101: 'e': unreferenced local variable
+  academic_records.cpp
+  AddAbsForm.cpp
+  AddAdminForm.cpp
+  AddCourseForm.cpp
+  AddDepartForm.cpp
+c:\users\vladoss\source\repos\eduac\absente.h(22): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: see declaration of 'localtime'
+c:\users\vladoss\source\repos\eduac\nota.h(16): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: see declaration of 'localtime'
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(36): warning C4101: 'e': unreferenced local variable
+  AddGroupForm.cpp
+  AddMarkForm.cpp
+  AddProfForm.cpp
+c:\users\vladoss\source\repos\eduac\absente.h(22): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: see declaration of 'localtime'
+c:\users\vladoss\source\repos\eduac\nota.h(16): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: see declaration of 'localtime'
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(36): warning C4101: 'e': unreferenced local variable
+  AddStudForm.cpp
+  Admin.cpp
+c:\users\vladoss\source\repos\eduac\absente.h(22): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: see declaration of 'localtime'
+c:\users\vladoss\source\repos\eduac\nota.h(16): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: see declaration of 'localtime'
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(36): warning C4101: 'e': unreferenced local variable
+  Catedra.cpp
+c:\users\vladoss\source\repos\eduac\absente.h(22): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: see declaration of 'localtime'
+c:\users\vladoss\source\repos\eduac\nota.h(16): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: see declaration of 'localtime'
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(36): warning C4101: 'e': unreferenced local variable
+c:\users\vladoss\source\repos\eduac\catedra.cpp(400): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\catedra.cpp(400): warning C4566: character represented by universal-character-name '\u021B' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\catedra.cpp(412): warning C4566: character represented by universal-character-name '\u0219' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\catedra.cpp(412): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\catedra.cpp(412): warning C4566: character represented by universal-character-name '\u021B' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\catedra.cpp(420): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\catedra.cpp(426): warning C4566: character represented by universal-character-name '\u021B' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\catedra.cpp(426): warning C4566: character represented by universal-character-name '\u00EE' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\catedra.cpp(431): warning C4566: character represented by universal-character-name '\u021B' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\catedra.cpp(439): warning C4566: character represented by universal-character-name '\u0219' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\catedra.cpp(439): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\catedra.cpp(439): warning C4566: character represented by universal-character-name '\u021B' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\catedra.cpp(447): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\catedra.cpp(481): warning C4566: character represented by universal-character-name '\u021B' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\catedra.cpp(489): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\catedra.cpp(514): warning C4566: character represented by universal-character-name '\u021B' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\catedra.cpp(520): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\catedra.cpp(531): warning C4566: character represented by universal-character-name '\u021B' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\catedra.cpp(539): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\catedra.cpp(544): warning C4566: character represented by universal-character-name '\u021B' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\catedra.cpp(553): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\catedra.cpp(705): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\catedra.cpp(710): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\catedra.cpp(715): warning C4566: character represented by universal-character-name '\u021B' cannot be represented in the current code page (1251)
+  Curs.cpp
+c:\users\vladoss\source\repos\eduac\absente.h(22): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: see declaration of 'localtime'
+c:\users\vladoss\source\repos\eduac\nota.h(16): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: see declaration of 'localtime'
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(36): warning C4101: 'e': unreferenced local variable
+  DatabaseConnection.cpp
+c:\users\vladoss\source\repos\eduac\absente.h(22): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: see declaration of 'localtime'
+c:\users\vladoss\source\repos\eduac\nota.h(16): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: see declaration of 'localtime'
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(36): warning C4101: 'e': unreferenced local variable
+c:\users\vladoss\source\repos\eduac\databaseconnection.cpp(35): warning C4566: character represented by universal-character-name '\u021B' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\databaseconnection.cpp(74): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\databaseconnection.cpp(74): warning C4566: character represented by universal-character-name '\u00EE' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\databaseconnection.cpp(84): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\databaseconnection.cpp(84): warning C4566: character represented by universal-character-name '\u00EE' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\databaseconnection.cpp(97): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\databaseconnection.cpp(100): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\databaseconnection.cpp(109): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\databaseconnection.cpp(131): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\databaseconnection.cpp(175): warning C4566: character represented by universal-character-name '\u021B' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\databaseconnection.cpp(188): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\databaseconnection.cpp(191): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\databaseconnection.cpp(202): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\databaseconnection.cpp(219): warning C4566: character represented by universal-character-name '\u021B' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\databaseconnection.cpp(294): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\databaseconnection.cpp(298): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\databaseconnection.cpp(638): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\databaseconnection.cpp(642): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\databaseconnection.cpp(653): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\databaseconnection.cpp(656): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\databaseconnection.cpp(686): warning C4566: character represented by universal-character-name '\u00EE' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\databaseconnection.cpp(686): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\databaseconnection.cpp(692): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1251)
+  EditDepartForm.cpp
+c:\users\vladoss\source\repos\eduac\absente.h(22): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: see declaration of 'localtime'
+c:\users\vladoss\source\repos\eduac\nota.h(16): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: see declaration of 'localtime'
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(36): warning C4101: 'e': unreferenced local variable
+c:\users\vladoss\source\repos\eduac\editdepartform.cpp(29): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\editdepartform.cpp(29): warning C4566: character represented by universal-character-name '\u00E2' cannot be represented in the current code page (1251)
+  EditProfForm.cpp
+c:\users\vladoss\source\repos\eduac\absente.h(22): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: see declaration of 'localtime'
+c:\users\vladoss\source\repos\eduac\nota.h(16): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: see declaration of 'localtime'
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(36): warning C4101: 'e': unreferenced local variable
+c:\users\vladoss\source\repos\eduac\editprofform.cpp(44): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\editprofform.cpp(44): warning C4566: character represented by universal-character-name '\u00E2' cannot be represented in the current code page (1251)
+  Grupa.cpp
+c:\users\vladoss\source\repos\eduac\absente.h(22): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: see declaration of 'localtime'
+c:\users\vladoss\source\repos\eduac\nota.h(16): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: see declaration of 'localtime'
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(36): warning C4101: 'e': unreferenced local variable
+c:\users\vladoss\source\repos\eduac\grupa.cpp(50): warning C4267: 'return': conversion from 'size_t' to 'unsigned short', possible loss of data
+  LoginForm.cpp
+  main.cpp
+c:\users\vladoss\source\repos\eduac\absente.h(22): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: see declaration of 'localtime'
+c:\users\vladoss\source\repos\eduac\nota.h(16): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: see declaration of 'localtime'
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(36): warning C4101: 'e': unreferenced local variable
+c:\users\vladoss\source\repos\eduac\main.cpp(9): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+  MenuForm.cpp
+c:\users\vladoss\source\repos\eduac\absente.h(22): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: see declaration of 'localtime'
+c:\users\vladoss\source\repos\eduac\nota.h(16): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: see declaration of 'localtime'
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(36): warning C4101: 'e': unreferenced local variable
+c:\users\vladoss\source\repos\eduac\menuform.cpp(239): warning C4566: character represented by universal-character-name '\u021B' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\menuform.cpp(239): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\menuform.cpp(239): warning C4566: character represented by universal-character-name '\u0219' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\menuform.cpp(276): warning C4566: character represented by universal-character-name '\u021B' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\menuform.cpp(276): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\menuform.cpp(276): warning C4566: character represented by universal-character-name '\u0219' cannot be represented in the current code page (1251)
+  Generating Code...
+  Compiling...
+  Nota.cpp
+c:\users\vladoss\source\repos\eduac\absente.h(22): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: see declaration of 'localtime'
+c:\users\vladoss\source\repos\eduac\nota.h(16): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: see declaration of 'localtime'
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(36): warning C4101: 'e': unreferenced local variable
+  Professor.cpp
+c:\users\vladoss\source\repos\eduac\absente.h(22): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: see declaration of 'localtime'
+c:\users\vladoss\source\repos\eduac\nota.h(16): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: see declaration of 'localtime'
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(36): warning C4101: 'e': unreferenced local variable
+  Student.cpp
+c:\users\vladoss\source\repos\eduac\absente.h(22): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: see declaration of 'localtime'
+c:\users\vladoss\source\repos\eduac\nota.h(16): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: see declaration of 'localtime'
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(36): warning C4101: 'e': unreferenced local variable
+c:\users\vladoss\source\repos\eduac\student.cpp(82): warning C4566: character represented by universal-character-name '\u00EE' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\student.cpp(82): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1251)
+  SystemManagement.cpp
+c:\users\vladoss\source\repos\eduac\absente.h(22): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: see declaration of 'localtime'
+c:\users\vladoss\source\repos\eduac\nota.h(16): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: see declaration of 'localtime'
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(36): warning C4101: 'e': unreferenced local variable
+c:\users\vladoss\source\repos\eduac\systemmanagement.cpp(221): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\systemmanagement.cpp(632): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\systemmanagement.cpp(636): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\systemmanagement.cpp(641): warning C4566: character represented by universal-character-name '\u021B' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\systemmanagement.cpp(641): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\systemmanagement.cpp(685): warning C4566: character represented by universal-character-name '\u021B' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\systemmanagement.cpp(716): warning C4566: character represented by universal-character-name '\u021B' cannot be represented in the current code page (1251)
+c:\users\vladoss\source\repos\eduac\systemmanagement.cpp(732): warning C4286: 'const sql::SQLException &': is caught by base class ('const std::exception &') on line 728
+  User.cpp
+c:\users\vladoss\source\repos\eduac\absente.h(22): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: see declaration of 'localtime'
+c:\users\vladoss\source\repos\eduac\nota.h(16): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: see declaration of 'localtime'
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(36): warning C4101: 'e': unreferenced local variable
+  Generating Code...
+  .NETFramework,Version=v4.6.1.AssemblyAttributes.cpp
+  Absente.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  EduAc.vcxproj -> C:\Users\Vladoss\source\repos\EduAc\x64\Debug\EduAc.exe
