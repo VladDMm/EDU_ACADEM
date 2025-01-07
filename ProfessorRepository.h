@@ -1,20 +1,3 @@
-#pragma once
-#ifndef PROFESSORREPOSITORY_H_
-#define PROFESSORREPOSITORY_H_
-
-#include <vector>
-#include "DatabaseConnection.h"
-#include "Professor.h"
-
-class ProfessorRepository {
-public:
-	explicit ProfessorRepository(DatabaseConnection& dbConn);
-
-	std::vector<Profesor> getAllProfessors();
-	void addProfessor(const Profesor& profesor);
-
-private:
-	DatabaseConnection& dbConn;
-};
-
-#endif // !1
+version https://git-lfs.github.com/spec/v1
+oid sha256:41a278cf10999b899ea8fadebe2128a574c04cf22f587f6804ff8c065e1fd4ec
+size 401
