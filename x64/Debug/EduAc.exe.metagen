@@ -1,7 +1,9 @@
   EduAc.AddDepartForm.resources - Embedded, ContainedInManifestFile, 
   EduAc.AddProfForm.resources - Embedded, ContainedInManifestFile, 
+  EduAc.AddStudForm.resources - Embedded, ContainedInManifestFile, 
   EduAc.EditDepartForm.resources - Embedded, ContainedInManifestFile, 
   EduAc.EditProfForm.resources - Embedded, ContainedInManifestFile, 
+  EduAc.EditStudentForm.resources - Embedded, ContainedInManifestFile, 
   EduAc.LoginForm.resources - Embedded, ContainedInManifestFile, 
   EduAc.MenuForm.resources - Embedded, ContainedInManifestFile, 
 ImageRuntimeVersion: v4.0.30319
@@ -36,10 +38,12 @@ Class EduAc.MenuForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
     AddRowToDepartDataGridView(): PrivateScope, Public, HideBySig
     AddRowToProfDataGridView(String, String, String, String, String, String, String): PrivateScope, Public, HideBySig
     AddRowToProfDataGridView(): PrivateScope, Public, HideBySig
+    AddRowToStudDataGridView(String, String, String, String, String, String, String, String, String): PrivateScope, Public, HideBySig
     AddRowToStudDataGridView(): PrivateScope, Public, HideBySig
     AddRowToGroupDataGridView(): PrivateScope, Public, HideBySig
     AddRowToCourseDataGridView(): PrivateScope, Public, HideBySig
     GetDepartments(): PrivateScope, Public, HideBySig
+    GetSpecialty(): PrivateScope, Public, HideBySig
     LoadDataFromDatabase(): PrivateScope, Public, HideBySig
 Class EduAc.AddDepartForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
@@ -55,13 +59,16 @@ Class EduAc.AddProfForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
     Void .ctor(EduAc.MenuForm, System.Data.DataTable): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class EduAc.AddStudForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
-    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(EduAc.MenuForm, System.Data.DataTable): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class EduAc.EditDepartForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class EduAc.EditProfForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(System.String, System.Data.DataTable): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class EduAc.EditStudentForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class EduAc.LoginForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

@@ -46,14 +46,14 @@
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v141</PlatformToolset>
     <CLRSupport>true</CLRSupport>
-    <CharacterSet>Unicode</CharacterSet>
+    <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v141</PlatformToolset>
     <CLRSupport>true</CLRSupport>
-    <CharacterSet>Unicode</CharacterSet>
+    <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -163,6 +163,7 @@
     <ClCompile Include="DatabaseConnection.cpp" />
     <ClCompile Include="EditDepartForm.cpp" />
     <ClCompile Include="EditProfForm.cpp" />
+    <ClCompile Include="EditStudentForm.cpp" />
     <ClCompile Include="Grupa.cpp" />
     <ClCompile Include="LoginForm.cpp" />
     <ClCompile Include="main.cpp" />
@@ -210,6 +211,9 @@
     <ClInclude Include="EditProfForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="EditStudentForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="Grupa.h" />
     <ClInclude Include="IncludesCentral.h" />
     <ClInclude Include="LoginForm.h">
@@ -231,11 +235,17 @@
     <EmbeddedResource Include="AddProfForm.resx">
       <DependentUpon>AddProfForm.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AddStudForm.resx">
+      <DependentUpon>AddStudForm.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EditDepartForm.resx">
       <DependentUpon>EditDepartForm.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EditProfForm.resx">
       <DependentUpon>EditProfForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditStudentForm.resx">
+      <DependentUpon>EditStudentForm.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.h</DependentUpon>
