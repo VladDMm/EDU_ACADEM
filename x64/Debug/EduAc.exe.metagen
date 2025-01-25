@@ -36,14 +36,15 @@ Class EduAc.MenuForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   Methods:
     AddRowToDepartDataGridView(String, String, String): PrivateScope, Public, HideBySig
     AddRowToDepartDataGridView(): PrivateScope, Public, HideBySig
-    AddRowToProfDataGridView(String, String, String, String, String, String, String): PrivateScope, Public, HideBySig
+    AddRowToProfDataGridView(String, String, String, String, String, String, String, String): PrivateScope, Public, HideBySig
     AddRowToProfDataGridView(): PrivateScope, Public, HideBySig
-    AddRowToStudDataGridView(String, String, String, String, String, String, String, String, String): PrivateScope, Public, HideBySig
+    AddRowToStudDataGridView(String, String, String, String, String, String, String, String, String, String): PrivateScope, Public, HideBySig
     AddRowToStudDataGridView(): PrivateScope, Public, HideBySig
     AddRowToGroupDataGridView(): PrivateScope, Public, HideBySig
     AddRowToCourseDataGridView(): PrivateScope, Public, HideBySig
     GetDepartments(): PrivateScope, Public, HideBySig
     GetSpecialty(): PrivateScope, Public, HideBySig
+    Utf8ToSystemString(basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
     LoadDataFromDatabase(): PrivateScope, Public, HideBySig
 Class EduAc.AddDepartForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
@@ -68,7 +69,7 @@ Class EduAc.EditProfForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
     Void .ctor(System.String, System.Data.DataTable): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class EduAc.EditStudentForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
-    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class EduAc.LoginForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
