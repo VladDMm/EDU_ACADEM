@@ -156,6 +156,7 @@
     <ClCompile Include="AddGroupForm.cpp" />
     <ClCompile Include="AddMarkForm.cpp" />
     <ClCompile Include="AddProfForm.cpp" />
+    <ClCompile Include="AddSpecialtyForm.cpp" />
     <ClCompile Include="AddStudForm.cpp" />
     <ClCompile Include="Admin.cpp" />
     <ClCompile Include="Catedra.cpp" />
@@ -163,6 +164,7 @@
     <ClCompile Include="DatabaseConnection.cpp" />
     <ClCompile Include="EditDepartForm.cpp" />
     <ClCompile Include="EditProfForm.cpp" />
+    <ClCompile Include="EditSpecialtyForm.cpp" />
     <ClCompile Include="EditStudentForm.cpp" />
     <ClCompile Include="Grupa.cpp" />
     <ClCompile Include="LoginForm.cpp" />
@@ -198,6 +200,9 @@
     <ClInclude Include="AddProfForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="AddSpecialtyForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="AddStudForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
@@ -209,6 +214,9 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="EditProfForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="EditSpecialtyForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="EditStudentForm.h">
@@ -232,8 +240,14 @@
     <EmbeddedResource Include="AddDepartForm.resx">
       <DependentUpon>AddDepartForm.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AddGroupForm.resx">
+      <DependentUpon>AddGroupForm.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AddProfForm.resx">
       <DependentUpon>AddProfForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddSpecialtyForm.resx">
+      <DependentUpon>AddSpecialtyForm.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AddStudForm.resx">
       <DependentUpon>AddStudForm.h</DependentUpon>
