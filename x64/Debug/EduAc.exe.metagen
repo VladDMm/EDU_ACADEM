@@ -39,7 +39,7 @@ Class EduAc.MenuForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   Methods:
     AddRowToDepartDataGridView(String, String, String): PrivateScope, Public, HideBySig
     AddRowToDepartDataGridView(): PrivateScope, Public, HideBySig
-    AddRowToProfDataGridView(String, String, String, String, String, String, String, String): PrivateScope, Public, HideBySig
+    AddRowToProfDataGridView(String, String, String, String, String, String, String, String, String): PrivateScope, Public, HideBySig
     AddRowToProfDataGridView(): PrivateScope, Public, HideBySig
     AddRowToStudDataGridView(String, String, String, String, String, String, String, String, String, String): PrivateScope, Public, HideBySig
     AddRowToStudDataGridView(): PrivateScope, Public, HideBySig
@@ -53,7 +53,6 @@ Class EduAc.MenuForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
     GetSpecialty(): PrivateScope, Public, HideBySig
     GetProfessors(): PrivateScope, Public, HideBySig
     Utf8ToSystemString(basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
-    LoadDataFromDatabase(): PrivateScope, Public, HideBySig
 Class EduAc.AddCourseForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(EduAc.MenuForm, System.Data.DataTable): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
@@ -69,9 +68,13 @@ Class EduAc.AddProfForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
 Class EduAc.AddSpecialtyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(EduAc.MenuForm, System.Data.DataTable): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Utf8ToSystemString(basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
 Class EduAc.AddStudForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(EduAc.MenuForm, System.Data.DataTable): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    NormalizeAndConvertText(String): PrivateScope, Public, HideBySig
 Class EduAc.EditDepartForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

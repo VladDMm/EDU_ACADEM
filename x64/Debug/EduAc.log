@@ -1,62 +1,22 @@
-﻿  Absente.cpp
-c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
-  academic_records.cpp
-  AddAbsForm.cpp
-  AddAdminForm.cpp
-  AddCourseForm.cpp
+﻿  AddCourseForm.cpp
 c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
   AddDepartForm.cpp
 c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
   AddGroupForm.cpp
 c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
-  AddMarkForm.cpp
   AddProfForm.cpp
 c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
   AddSpecialtyForm.cpp
 c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
   AddStudForm.cpp
 c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
-  Admin.cpp
-c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
-  Catedra.cpp
-c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
-  Curs.cpp
-c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
-  DatabaseConnection.cpp
-c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
-c:\users\vladoss\source\repos\eduac\databaseconnection.cpp(370): warning C4101: 'e': unreferenced local variable
-  EditDepartForm.cpp
-c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
-  EditProfForm.cpp
-c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
-  EditSpecialtyForm.cpp
-  EditStudentForm.cpp
-c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
-  Grupa.cpp
-c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
-c:\users\vladoss\source\repos\eduac\grupa.cpp(50): warning C4267: 'return': conversion from 'size_t' to 'unsigned short', possible loss of data
-  Generating Code...
-  Compiling...
   LoginForm.cpp
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
+  MenuForm.cpp
 c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
   main.cpp
 c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
 c:\users\vladoss\source\repos\eduac\main.cpp(10): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
-  MenuForm.cpp
-c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
-  Nota.cpp
-c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
-  Professor.cpp
-c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
-  Student.cpp
-c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
-  SystemManagement.cpp
-c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
-c:\users\vladoss\source\repos\eduac\systemmanagement.cpp(760): warning C4286: 'const sql::SQLException &': is caught by base class ('const std::exception &') on line 756
-c:\users\vladoss\source\repos\eduac\systemmanagement.cpp(777): warning C4286: 'const sql::SQLException &': is caught by base class ('const std::exception &') on line 773
-  User.cpp
-c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
   Generating Code...
-  .NETFramework,Version=v4.6.1.AssemblyAttributes.cpp
   Absente.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
   EduAc.vcxproj -> C:\Users\Vladoss\source\repos\EduAc\x64\Debug\EduAc.exe
