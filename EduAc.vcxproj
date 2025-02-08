@@ -165,7 +165,9 @@
     <ClCompile Include="Catedra.cpp" />
     <ClCompile Include="Curs.cpp" />
     <ClCompile Include="DatabaseConnection.cpp" />
+    <ClCompile Include="EditCourseForm.cpp" />
     <ClCompile Include="EditDepartForm.cpp" />
+    <ClCompile Include="EditGroupCourse.cpp" />
     <ClCompile Include="EditGroupForm.cpp" />
     <ClCompile Include="EditProfForm.cpp" />
     <ClCompile Include="EditSpecialtyForm.cpp" />
@@ -217,7 +219,13 @@
     <ClInclude Include="Catedra.h" />
     <ClInclude Include="Curs.h" />
     <ClInclude Include="DatabaseConnection.h" />
+    <ClInclude Include="EditCourseForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="EditDepartForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="EditGroupCourse.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="EditGroupForm.h">
@@ -268,8 +276,14 @@
     <EmbeddedResource Include="AddStudForm.resx">
       <DependentUpon>AddStudForm.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="EditCourseForm.resx">
+      <DependentUpon>EditCourseForm.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EditDepartForm.resx">
       <DependentUpon>EditDepartForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditGroupCourse.resx">
+      <DependentUpon>EditGroupCourse.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EditGroupForm.resx">
       <DependentUpon>EditGroupForm.h</DependentUpon>
