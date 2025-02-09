@@ -146,6 +146,7 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
@@ -178,9 +179,11 @@
     <ClCompile Include="MenuForm.cpp" />
     <ClCompile Include="Nota.cpp" />
     <ClCompile Include="Professor.cpp" />
+    <ClCompile Include="ProfessorForm.cpp" />
     <ClCompile Include="Student.cpp" />
     <ClCompile Include="SystemManagement.cpp" />
     <ClCompile Include="User.cpp" />
+    <ClCompile Include="UserSettingsForm.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Absente.h" />
@@ -250,9 +253,15 @@
     </ClInclude>
     <ClInclude Include="Nota.h" />
     <ClInclude Include="Professor.h" />
+    <ClInclude Include="ProfessorForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="Student.h" />
     <ClInclude Include="SystemManagement.h" />
     <ClInclude Include="User.h" />
+    <ClInclude Include="UserSettingsForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="AddCourseForm.resx">
@@ -302,6 +311,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MenuForm.resx">
       <DependentUpon>MenuForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProfessorForm.resx">
+      <DependentUpon>ProfessorForm.h</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

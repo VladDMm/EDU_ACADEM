@@ -111,6 +111,12 @@
     <ClCompile Include="EditGroupCourse.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="UserSettingsForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProfessorForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MenuForm.h">
@@ -209,6 +215,12 @@
     <ClInclude Include="EditGroupCourse.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="UserSettingsForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProfessorForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="MenuForm.resx">
@@ -254,6 +266,9 @@
       <Filter>Resource Files</Filter>
     </EmbeddedResource>
     <EmbeddedResource Include="EditCourseForm.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditGroupCourse.resx">
       <Filter>Resource Files</Filter>
     </EmbeddedResource>
   </ItemGroup>

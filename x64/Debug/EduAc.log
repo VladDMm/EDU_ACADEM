@@ -1,20 +1,6 @@
-﻿  AddCourseForm.cpp
+﻿  LoginForm.cpp
 c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
-  AddDepartForm.cpp
-c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
-  AddGroupForm.cpp
-c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
-  AddGroupToCourse.cpp
-c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
-  AddProfForm.cpp
-c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
-  AddSpecialtyForm.cpp
-c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
-  AddStudForm.cpp
-c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
-  LoginForm.cpp
-c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
-  MenuForm.cpp
+  ProfessorForm.cpp
 c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
   main.cpp
 c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
