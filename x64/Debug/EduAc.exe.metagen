@@ -123,11 +123,6 @@ Class EduAc.ProfessorForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
     AddRowToCourseDataGridView(String, String, String, String, String): PrivateScope, Public, HideBySig
     AddRowToCourseDataGridView(): PrivateScope, Public, HideBySig
     AddRowToGroupCourseDataGridView(): PrivateScope, Public, HideBySig
-    GetDepartments(): PrivateScope, Public, HideBySig
-    GetSpecialty(): PrivateScope, Public, HideBySig
-    GetProfessors(): PrivateScope, Public, HideBySig
-    GetCourse(): PrivateScope, Public, HideBySig
-    GetGroups(): PrivateScope, Public, HideBySig
     Utf8ToSystemString(basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
 Class EduAc.LoginForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
