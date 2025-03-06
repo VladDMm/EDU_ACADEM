@@ -1,5 +1,7 @@
-﻿  DatabaseConnection.cpp
+﻿  AddDepartForm.cpp
 c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
-c:\users\vladoss\source\repos\eduac\databaseconnection.cpp(491): warning C4101: 'e': unreferenced local variable
+  AddSpecialtyForm.cpp
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
+  Generating Code...
   Absente.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
   EduAc.vcxproj -> C:\Users\Vladoss\source\repos\EduAc\x64\Debug\EduAc.exe

@@ -120,7 +120,6 @@ Class EduAc.ProfessorForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   Methods:
     AddRowToStudDataGridView(String, String, String, String, String, String, String, String, String, String): PrivateScope, Public, HideBySig
     AddRowToStudDataGridView(): PrivateScope, Public, HideBySig
-    LoadProfessorCourses(): PrivateScope, Public, HideBySig
     AddRowToCourseDataGridView(String, String, String, String, String): PrivateScope, Public, HideBySig
     AddRowToCourseDataGridView(): PrivateScope, Public, HideBySig
     AddRowToGroupCourseDataGridView(): PrivateScope, Public, HideBySig

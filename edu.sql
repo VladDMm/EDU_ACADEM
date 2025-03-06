@@ -26,14 +26,22 @@ CREATE TABLE IF NOT EXISTS `absences` (
   `course_id` int(11) NOT NULL,
   `absence_date` date NOT NULL,
   `justified` tinyint(1) DEFAULT 0,
+  `professor_id` int(11) NOT NULL,
   PRIMARY KEY (`absence_id`),
   KEY `student_id` (`student_id`),
   KEY `course_id` (`course_id`),
+  KEY `FK_absences_professors` (`professor_id`),
+  CONSTRAINT `FK_absences_professors` FOREIGN KEY (`professor_id`) REFERENCES `professors` (`professor_id`),
   CONSTRAINT `absences_ibfk_1` FOREIGN KEY (`student_id`) REFERENCES `students` (`student_id`),
   CONSTRAINT `absences_ibfk_2` FOREIGN KEY (`course_id`) REFERENCES `courses` (`course_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
--- Dumping data for table edu.absences: ~0 rows (approximately)
+-- Dumping data for table edu.absences: ~4 rows (approximately)
+INSERT INTO `absences` (`absence_id`, `student_id`, `course_id`, `absence_date`, `justified`, `professor_id`) VALUES
+	(1, 6, 9, '2025-03-06', 0, 12),
+	(2, 2, 9, '2025-03-06', 1, 12),
+	(3, 8, 9, '2025-03-06', 0, 12),
+	(4, 10, 9, '2025-03-06', 0, 12);
 
 -- Dumping structure for table edu.admins
 CREATE TABLE IF NOT EXISTS `admins` (
@@ -62,9 +70,9 @@ INSERT INTO `courses` (`course_id`, `course_name`, `nr_credite`, `professor_id`)
 	(1, 'Drept Civil', 4, 1),
 	(2, 'Drept Penal', 5, 2),
 	(3, 'Drept Constituţional', 4, 3),
-	(4, 'Politici Monetare', 3, 4),
-	(5, 'Marketing Financiar', 4, 5),
-	(6, 'Contabilitate Bancară', 4, 6),
+	(4, 'Politici Monetare', 3, NULL),
+	(5, 'Marketing Financiar', 4, NULL),
+	(6, 'Contabilitate Bancară', 4, NULL),
 	(7, 'Algoritmi şi Structuri de Date', 4, 12),
 	(9, 'Securitate Cibernetică', 3, 12);
 
@@ -76,12 +84,12 @@ CREATE TABLE IF NOT EXISTS `departments` (
   PRIMARY KEY (`department_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci CHECKSUM=1;
 
--- Dumping data for table edu.departments: ~3 rows (approximately)
+-- Dumping data for table edu.departments: ~5 rows (approximately)
 INSERT INTO `departments` (`department_id`, `department_name`, `faculty`) VALUES
-	(1, 'Drept', 'Facultatea de Drept Si Administratie Publica'),
+	(1, 'Drept', 'Facultatea de Drept şi Administraţie Publică'),
 	(2, 'Ştiinţe Politice şi Administrative', 'Facultatea de Drept şi Administraţie Publică'),
 	(3, 'Inginerie şi Ştiinţe Aplicate', 'Facultatea de Economie, Inginerie şi Ştiinţe Aplicate'),
-	(4, 'Științe Economice', 'Facultatea de Economie, Inginerie și Știinte Aplicate');
+	(4, 'Ştiinţe Economice', 'Facultatea de Economie');
 
 -- Dumping structure for table edu.grades
 CREATE TABLE IF NOT EXISTS `grades` (
@@ -91,6 +99,7 @@ CREATE TABLE IF NOT EXISTS `grades` (
   `mark` int(11) NOT NULL DEFAULT 0,
   `date_of_grade` date NOT NULL,
   `professor_id` int(11) DEFAULT NULL,
+  `activity_type` enum('Ev','Ex','S/L') DEFAULT 'S/L',
   PRIMARY KEY (`grade_id`),
   KEY `student_id` (`student_id`),
   KEY `course_id` (`course_id`),
@@ -98,17 +107,27 @@ CREATE TABLE IF NOT EXISTS `grades` (
   CONSTRAINT `grades_ibfk_1` FOREIGN KEY (`student_id`) REFERENCES `students` (`student_id`),
   CONSTRAINT `grades_ibfk_2` FOREIGN KEY (`course_id`) REFERENCES `courses` (`course_id`),
   CONSTRAINT `grades_ibfk_3` FOREIGN KEY (`professor_id`) REFERENCES `professors` (`professor_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=27 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
--- Dumping data for table edu.grades: ~7 rows (approximately)
-INSERT INTO `grades` (`grade_id`, `student_id`, `course_id`, `mark`, `date_of_grade`, `professor_id`) VALUES
-	(1, 1, 9, 9, '2025-02-16', 12),
-	(5, 6, 9, 8, '2025-02-18', 12),
-	(6, 10, 9, 7, '2025-02-18', 12),
-	(7, 9, 9, 8, '2025-02-18', 12),
-	(8, 5, 9, 8, '2025-02-17', 12),
-	(9, 5, 9, 9, '2025-02-18', 12),
-	(16, 2, 9, 9, '2025-02-17', 12);
+-- Dumping data for table edu.grades: ~17 rows (approximately)
+INSERT INTO `grades` (`grade_id`, `student_id`, `course_id`, `mark`, `date_of_grade`, `professor_id`, `activity_type`) VALUES
+	(1, 1, 9, 8, '2025-02-16', 12, 'Ev'),
+	(5, 6, 9, 8, '2025-02-18', 12, 'S/L'),
+	(6, 10, 9, 7, '2025-02-18', 12, 'S/L'),
+	(7, 9, 9, 8, '2025-02-18', 12, 'S/L'),
+	(8, 5, 9, 8, '2025-02-17', 12, 'S/L'),
+	(9, 5, 9, 9, '2025-02-18', 12, 'S/L'),
+	(16, 2, 9, 9, '2025-02-17', 12, 'S/L'),
+	(17, 7, 9, 5, '2025-02-16', 12, 'S/L'),
+	(18, 6, 9, 7, '2025-03-07', 12, 'Ex'),
+	(19, 5, 9, 8, '2025-03-07', 12, 'Ex'),
+	(20, 7, 9, 8, '2025-03-07', 12, 'Ex'),
+	(21, 2, 9, 8, '2025-03-07', 12, 'Ex'),
+	(22, 1, 9, 7, '2025-03-07', 12, 'Ex'),
+	(23, 9, 9, 8, '2025-03-07', 12, 'Ex'),
+	(24, 8, 9, 9, '2025-03-07', 12, 'Ex'),
+	(25, 10, 9, 8, '2025-03-07', 12, 'Ex'),
+	(26, 11, 9, 9, '2025-03-07', 12, 'Ex');
 
 -- Dumping structure for table edu.groups
 CREATE TABLE IF NOT EXISTS `groups` (
@@ -127,7 +146,6 @@ CREATE TABLE IF NOT EXISTS `groups` (
 -- Dumping data for table edu.groups: ~8 rows (approximately)
 INSERT INTO `groups` (`group_id`, `group_name`, `study_year`, `department_id`, `specialitate_id`) VALUES
 	(1, 'IT-2201', 3, 3, 6),
-	(2, 'BA-2201', 3, 4, NULL),
 	(3, 'D-2301', 2, 1, 1),
 	(4, 'AJ-2101', 2, 1, 2),
 	(5, 'IM-2101', 2, 3, 7),
@@ -144,7 +162,7 @@ CREATE TABLE IF NOT EXISTS `group_course` (
   CONSTRAINT `group_ibfk2` FOREIGN KEY (`group_id`) REFERENCES `groups` (`group_id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
--- Dumping data for table edu.group_course: ~2 rows (approximately)
+-- Dumping data for table edu.group_course: ~1 rows (approximately)
 INSERT INTO `group_course` (`course_id`, `group_id`) VALUES
 	(7, 8),
 	(9, 1);
@@ -160,22 +178,20 @@ CREATE TABLE IF NOT EXISTS `professors` (
   KEY `department_id` (`department_id`),
   CONSTRAINT `professors_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`) ON DELETE CASCADE,
   CONSTRAINT `professors_ibfk_2` FOREIGN KEY (`department_id`) REFERENCES `departments` (`department_id`) ON DELETE SET NULL
-) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci CHECKSUM=1;
+) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci CHECKSUM=1;
 
--- Dumping data for table edu.professors: ~11 rows (approximately)
+-- Dumping data for table edu.professors: ~10 rows (approximately)
 INSERT INTO `professors` (`professor_id`, `professor_role`, `user_id`, `department_id`) VALUES
 	(1, 'Profesor Titular', 1, 1),
 	(2, 'Conferenţiar Universitar', 2, 1),
 	(3, 'Asistent Universitar', 3, 1),
-	(4, 'Profesor Titular', 4, 4),
-	(5, 'Conferenţiar Universitar', 5, 4),
-	(6, 'Asistent Universitar', 6, 4),
 	(7, 'Asistent Universitar', 7, 2),
 	(8, 'Profesor Titular', 8, 2),
 	(9, 'Asistent Universitar', 9, 2),
 	(10, 'Asistent Universitar', 10, 3),
 	(11, 'Profesor Titular', 11, 3),
-	(12, 'Conferenţiar Universitar', 12, 3);
+	(12, 'Conferenţiar Universitar', 12, 3),
+	(14, 'Rol Profesor', 27, 4);
 
 -- Dumping structure for table edu.specialty
 CREATE TABLE IF NOT EXISTS `specialty` (
@@ -184,20 +200,20 @@ CREATE TABLE IF NOT EXISTS `specialty` (
   `department_id` int(11) DEFAULT NULL,
   `director_program` int(11) DEFAULT NULL,
   PRIMARY KEY (`id_specialitate`),
-  KEY `professor_programfk1` (`director_program`),
   KEY `departmentfk2` (`department_id`),
-  CONSTRAINT `departmentfk2` FOREIGN KEY (`department_id`) REFERENCES `departments` (`department_id`) ON DELETE SET NULL,
+  KEY `professor_programfk1` (`director_program`),
+  CONSTRAINT `departmentfk2` FOREIGN KEY (`department_id`) REFERENCES `departments` (`department_id`) ON DELETE CASCADE,
   CONSTRAINT `professor_programfk1` FOREIGN KEY (`director_program`) REFERENCES `professors` (`professor_id`) ON DELETE SET NULL
-) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
--- Dumping data for table edu.specialty: ~6 rows (approximately)
+-- Dumping data for table edu.specialty: ~7 rows (approximately)
 INSERT INTO `specialty` (`id_specialitate`, `denumire_specialitate`, `department_id`, `director_program`) VALUES
 	(1, 'Drept', 1, 1),
 	(2, 'Administraţie Judiciară', 1, 2),
-	(3, 'Finante-Banci', 4, 4),
 	(5, 'Administratie Publica', 2, 7),
 	(6, 'Informatica', 3, 11),
-	(7, 'Inginerie Mecanică', 3, 10);
+	(7, 'Inginerie Mecanică', 3, 10),
+	(8, 'Finanțe și Bănci', 4, 14);
 
 -- Dumping structure for table edu.specialty_courses
 CREATE TABLE IF NOT EXISTS `specialty_courses` (
@@ -209,13 +225,10 @@ CREATE TABLE IF NOT EXISTS `specialty_courses` (
   CONSTRAINT `specialty_courses_ibfk_2` FOREIGN KEY (`course_id`) REFERENCES `courses` (`course_id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
--- Dumping data for table edu.specialty_courses: ~8 rows (approximately)
+-- Dumping data for table edu.specialty_courses: ~5 rows (approximately)
 INSERT INTO `specialty_courses` (`specialitate_id`, `course_id`) VALUES
 	(1, 2),
 	(1, 3),
-	(3, 4),
-	(3, 5),
-	(3, 6),
 	(1, 1),
 	(6, 7),
 	(6, 9);
@@ -260,9 +273,9 @@ CREATE TABLE IF NOT EXISTS `users` (
   `user_type` enum('student','professor','admin') CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
   `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
   PRIMARY KEY (`user_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=26 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=28 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
--- Dumping data for table edu.users: ~24 rows (approximately)
+-- Dumping data for table edu.users: ~25 rows (approximately)
 INSERT INTO `users` (`user_id`, `fullname`, `date_of_birth`, `email`, `phone_number`, `username`, `password_hash`, `salt`, `user_type`, `created_at`) VALUES
 	(1, 'Aristița Popescu', '2024-12-30 22:00:00', 'Email', 'Telefon', 'User Name', 'Parola', '', 'professor', '2025-01-26 09:59:46'),
 	(2, 'Andrei Ionescu', '2025-01-01 22:00:00', 'Email', 'Telefon', 'User Name', 'Parola', '', 'professor', '2025-01-26 10:00:11'),
@@ -287,7 +300,9 @@ INSERT INTO `users` (`user_id`, `fullname`, `date_of_birth`, `email`, `phone_num
 	(22, 'Onică Cătălin', '2025-02-15 22:00:00', 'Email', 'Telefon', 'Username', 'Parola', '', 'student', '2025-02-16 14:03:02'),
 	(23, 'Nedelcu Valeriu', '2025-02-15 22:00:00', 'Email', 'Telefon', 'Username', 'Parola', '', 'student', '2025-02-16 14:03:10'),
 	(24, 'Sârbu David', '2025-02-15 22:00:00', 'Email', 'Telefon', 'Username', 'Parola', '', 'student', '2025-02-16 14:03:19'),
-	(25, 'Zidu Nichita', '2025-02-15 22:00:00', 'Email', 'Telefon', 'Username', 'Parola', '', 'student', '2025-02-16 14:03:34');
+	(25, 'Zidu Nichita', '2025-02-15 22:00:00', 'Email', 'Telefon', 'Username', 'Parola', '', 'student', '2025-02-16 14:03:34'),
+	(26, 'Profesor Economic', '2025-03-05 22:00:00', 'Email', 'Telefon', 'User Name', 'Parola', '', 'professor', '2025-03-06 09:47:40'),
+	(27, 'Prof economic', '2025-03-05 22:00:00', 'Email', 'Telefon', 'User Name', 'Parola', '', 'professor', '2025-03-06 09:52:43');
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
