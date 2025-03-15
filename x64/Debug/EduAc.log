@@ -1,7 +1,28 @@
-﻿  AddDepartForm.cpp
+﻿  AddCourseForm.cpp
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
+  AddDepartForm.cpp
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
+  AddGroupForm.cpp
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
+  AddGroupToCourse.cpp
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
+  AddProfForm.cpp
 c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
   AddSpecialtyForm.cpp
 c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
+  AddStudForm.cpp
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
+  LoginForm.cpp
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
+  MenuForm.cpp
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
+  ProfessorForm.cpp
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
+c:\users\vladoss\source\repos\eduac\professorform.cpp(856): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\vladoss\source\repos\eduac\professorform.cpp(934): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  main.cpp
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
+c:\users\vladoss\source\repos\eduac\main.cpp(10): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
   Generating Code...
   Absente.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
   EduAc.vcxproj -> C:\Users\Vladoss\source\repos\EduAc\x64\Debug\EduAc.exe
