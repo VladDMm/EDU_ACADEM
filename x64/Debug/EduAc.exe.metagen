@@ -15,6 +15,7 @@
   EduAc.LoginForm.resources - Embedded, ContainedInManifestFile, 
   EduAc.MenuForm.resources - Embedded, ContainedInManifestFile, 
   EduAc.ProfessorForm.resources - Embedded, ContainedInManifestFile, 
+  EduAc.StudentForm.resources - Embedded, ContainedInManifestFile, 
 ImageRuntimeVersion: v4.0.30319
 Assembly EduAc, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
 	hash=SHA1, flags=PublicKey
@@ -124,6 +125,18 @@ Class EduAc.ProfessorForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
     AddRowToCourseDataGridView(): PrivateScope, Public, HideBySig
     AddRowToGroupCourseDataGridView(): PrivateScope, Public, HideBySig
     AddRowToMarksDataGridView(): PrivateScope, Public, HideBySig
+    Utf8ToSystemString(basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    convert_wstring_to_utf8(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*, basic_string<wchar_t\,std::char_traits<wchar_t>\,std::allocator<wchar_t> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+Class EduAc.StudentForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Student*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    MakeCircularImage(Bitmap, Int32): PrivateScope, Public, HideBySig
+    AddRowToCourseDataGridView(String, String, String, String, String): PrivateScope, Public, HideBySig
+    AddRowToCourseDataGridView(): PrivateScope, Public, HideBySig
+    AddRowToGroupDataGridView(): PrivateScope, Public, HideBySig
+    AddRowToMarksDataGridView(): PrivateScope, Public, HideBySig
+    AddDataToUserAccount(): PrivateScope, Public, HideBySig
     Utf8ToSystemString(basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
     convert_wstring_to_utf8(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*, basic_string<wchar_t\,std::char_traits<wchar_t>\,std::allocator<wchar_t> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
 Class EduAc.LoginForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
