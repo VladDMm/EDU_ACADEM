@@ -1,0 +1,149 @@
+  EduAc.AddCourseForm.resources - Embedded, ContainedInManifestFile, 
+  EduAc.AddDepartForm.resources - Embedded, ContainedInManifestFile, 
+  EduAc.AddGroupForm.resources - Embedded, ContainedInManifestFile, 
+  EduAc.AddGroupToCourse.resources - Embedded, ContainedInManifestFile, 
+  EduAc.AddProfForm.resources - Embedded, ContainedInManifestFile, 
+  EduAc.AddSpecialtyForm.resources - Embedded, ContainedInManifestFile, 
+  EduAc.AddStudForm.resources - Embedded, ContainedInManifestFile, 
+  EduAc.EditCourseForm.resources - Embedded, ContainedInManifestFile, 
+  EduAc.EditDepartForm.resources - Embedded, ContainedInManifestFile, 
+  EduAc.EditGroupCourse.resources - Embedded, ContainedInManifestFile, 
+  EduAc.EditGroupForm.resources - Embedded, ContainedInManifestFile, 
+  EduAc.EditProfForm.resources - Embedded, ContainedInManifestFile, 
+  EduAc.EditSpecialtyForm.resources - Embedded, ContainedInManifestFile, 
+  EduAc.EditStudentForm.resources - Embedded, ContainedInManifestFile, 
+  EduAc.LoginForm.resources - Embedded, ContainedInManifestFile, 
+  EduAc.MenuForm.resources - Embedded, ContainedInManifestFile, 
+  EduAc.ProfessorForm.resources - Embedded, ContainedInManifestFile, 
+  EduAc.StudentForm.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly EduAc, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class EduAc.AddAbsForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class EduAc.AddAdminForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class EduAc.AddDepartForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(EduAc.MenuForm): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class EduAc.MenuForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Administrator*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    MakeCircularImage(Bitmap, Int32): PrivateScope, Public, HideBySig
+    AddDataToUserAccount(): PrivateScope, Public, HideBySig
+    AddRowToDepartDataGridView(String, String, String): PrivateScope, Public, HideBySig
+    AddRowToDepartDataGridView(): PrivateScope, Public, HideBySig
+    AddRowToProfDataGridView(String, String, String, String, String, String, String, String, String): PrivateScope, Public, HideBySig
+    AddRowToProfDataGridView(): PrivateScope, Public, HideBySig
+    AddRowToStudDataGridView(String, String, String, String, String, String, String, String, String, String): PrivateScope, Public, HideBySig
+    AddRowToStudDataGridView(): PrivateScope, Public, HideBySig
+    AddRowToSpecialtyDataGridView(String, String, String, String): PrivateScope, Public, HideBySig
+    AddRowToSpecialtyDataGridView(): PrivateScope, Public, HideBySig
+    AddRowToGroupDataGridView(String, String, String, String, String): PrivateScope, Public, HideBySig
+    AddRowToGroupDataGridView(): PrivateScope, Public, HideBySig
+    AddRowToCourseDataGridView(String, String, String, String, String): PrivateScope, Public, HideBySig
+    AddRowToCourseDataGridView(): PrivateScope, Public, HideBySig
+    AddRowToGroupCourseDataGridView(): PrivateScope, Public, HideBySig
+    GetDepartments(): PrivateScope, Public, HideBySig
+    GetSpecialty(): PrivateScope, Public, HideBySig
+    GetProfessors(): PrivateScope, Public, HideBySig
+    GetCourse(): PrivateScope, Public, HideBySig
+    GetGroups(): PrivateScope, Public, HideBySig
+    Utf8ToSystemString(basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+Class EduAc.AddCourseForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(EduAc.MenuForm, System.Data.DataTable): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class EduAc.AddGroupForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(EduAc.MenuForm, System.Data.DataTable): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class EduAc.AddGroupToCourse: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(EduAc.MenuForm, System.Data.DataTable): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class EduAc.AddMarkForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class EduAc.AddProfForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(EduAc.MenuForm, System.Data.DataTable): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class EduAc.AddSpecialtyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(EduAc.MenuForm, System.Data.DataTable): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Utf8ToSystemString(basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+Class EduAc.AddStudForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(EduAc.MenuForm, System.Data.DataTable): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    NormalizeAndConvertText(String): PrivateScope, Public, HideBySig
+Class EduAc.EditCourseForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String, System.Data.DataTable): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class EduAc.EditDepartForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class EduAc.EditGroupCourse: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String, System.Data.DataTable, System.Data.DataTable): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class EduAc.EditGroupForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String, System.Data.DataTable): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    LoadGroupData(): PrivateScope, Public, HideBySig
+    groupComboBox_SelectedIndexChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    Utf8ToSystemString(basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+Class EduAc.EditProfForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String, System.Data.DataTable): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class EduAc.EditSpecialtyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String, System.Data.DataTable): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class EduAc.EditStudentForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class EduAc.ProfessorForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Profesor*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    AddRowToStudDataGridView(String, String, String, String, String, String, String, String, String, String): PrivateScope, Public, HideBySig
+    AddRowToStudDataGridView(): PrivateScope, Public, HideBySig
+    AddRowToCourseDataGridView(String, String, String, String, String): PrivateScope, Public, HideBySig
+    AddRowToCourseDataGridView(): PrivateScope, Public, HideBySig
+    AddRowToGroupCourseDataGridView(): PrivateScope, Public, HideBySig
+    AddRowToMarksDataGridView(): PrivateScope, Public, HideBySig
+    Utf8ToSystemString(basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    convert_wstring_to_utf8(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*, basic_string<wchar_t\,std::char_traits<wchar_t>\,std::allocator<wchar_t> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+Class EduAc.StudentForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Student*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    MakeCircularImage(Bitmap, Int32): PrivateScope, Public, HideBySig
+    AddRowToCourseDataGridView(String, String, String, String, String): PrivateScope, Public, HideBySig
+    AddRowToCourseDataGridView(): PrivateScope, Public, HideBySig
+    AddRowToGroupDataGridView(): PrivateScope, Public, HideBySig
+    AddRowToMarksDataGridView(): PrivateScope, Public, HideBySig
+    AddDataToUserAccount(): PrivateScope, Public, HideBySig
+    Utf8ToSystemString(basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    convert_wstring_to_utf8(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*, basic_string<wchar_t\,std::char_traits<wchar_t>\,std::allocator<wchar_t> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+Class EduAc.LoginForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class EduAc.UserSettingsForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

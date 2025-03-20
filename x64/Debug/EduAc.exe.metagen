@@ -44,8 +44,10 @@ Class EduAc.AddDepartForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
     Void .ctor(EduAc.MenuForm): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class EduAc.MenuForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
-    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Administrator*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
   Methods:
+    MakeCircularImage(Bitmap, Int32): PrivateScope, Public, HideBySig
+    AddDataToUserAccount(): PrivateScope, Public, HideBySig
     AddRowToDepartDataGridView(String, String, String): PrivateScope, Public, HideBySig
     AddRowToDepartDataGridView(): PrivateScope, Public, HideBySig
     AddRowToProfDataGridView(String, String, String, String, String, String, String, String, String): PrivateScope, Public, HideBySig
