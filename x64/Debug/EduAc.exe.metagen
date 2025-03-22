@@ -121,6 +121,8 @@ Class EduAc.ProfessorForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(Profesor*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
   Methods:
+    MakeCircularImage(Bitmap, Int32): PrivateScope, Public, HideBySig
+    AddDataToUserAccount(): PrivateScope, Public, HideBySig
     AddRowToStudDataGridView(String, String, String, String, String, String, String, String, String, String): PrivateScope, Public, HideBySig
     AddRowToStudDataGridView(): PrivateScope, Public, HideBySig
     AddRowToCourseDataGridView(String, String, String, String, String): PrivateScope, Public, HideBySig
