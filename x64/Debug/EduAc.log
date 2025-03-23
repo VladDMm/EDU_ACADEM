@@ -2,5 +2,10 @@
 c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
 c:\users\vladoss\source\repos\eduac\professorform.cpp(775): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
 c:\users\vladoss\source\repos\eduac\professorform.cpp(870): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  StudentForm.cpp
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
+c:\users\vladoss\source\repos\eduac\studentform.cpp(341): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\vladoss\source\repos\eduac\studentform.cpp(416): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
   Absente.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
   EduAc.vcxproj -> C:\Users\Vladoss\source\repos\EduAc\x64\Debug\EduAc.exe

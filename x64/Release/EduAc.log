@@ -1,9 +1,4 @@
-﻿  Absente.cpp
-c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
-  academic_records.cpp
-  AddAbsForm.cpp
-  AddAdminForm.cpp
-  AddCourseForm.cpp
+﻿  AddCourseForm.cpp
 c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
   AddDepartForm.cpp
 c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
@@ -11,7 +6,6 @@ c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e'
 c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
   AddGroupToCourse.cpp
 c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
-  AddMarkForm.cpp
   AddProfForm.cpp
 c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
   AddSpecialtyForm.cpp
@@ -35,8 +29,6 @@ c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e'
 c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
   EditGroupForm.cpp
 c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
-  Generating Code...
-  Compiling...
   EditProfForm.cpp
 c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
   EditSpecialtyForm.cpp
@@ -45,36 +37,33 @@ c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e'
 c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
   Grupa.cpp
 c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
-c:\users\vladoss\source\repos\eduac\grupa.cpp(29): warning C4267: 'return': conversion from 'size_t' to 'unsigned short', possible loss of data
   LoginForm.cpp
 c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
-  main.cpp
-c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
-c:\users\vladoss\source\repos\eduac\main.cpp(10): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+  Generating Code...
+  Compiling...
   MenuForm.cpp
-c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
-  Nota.cpp
 c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
   Professor.cpp
 c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
   ProfessorForm.cpp
 c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
-c:\users\vladoss\source\repos\eduac\professorform.cpp(856): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-c:\users\vladoss\source\repos\eduac\professorform.cpp(934): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\vladoss\source\repos\eduac\professorform.cpp(775): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\vladoss\source\repos\eduac\professorform.cpp(870): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
   Student.cpp
 c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
   StudentForm.cpp
 c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
-c:\users\vladoss\source\repos\eduac\studentform.cpp(647): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-c:\users\vladoss\source\repos\eduac\studentform.cpp(722): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\vladoss\source\repos\eduac\studentform.cpp(341): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\vladoss\source\repos\eduac\studentform.cpp(416): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
   SystemManagement.cpp
 c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
-c:\users\vladoss\source\repos\eduac\systemmanagement.cpp(366): warning C4286: 'const sql::SQLException &': is caught by base class ('const std::exception &') on line 362
-c:\users\vladoss\source\repos\eduac\systemmanagement.cpp(383): warning C4286: 'const sql::SQLException &': is caught by base class ('const std::exception &') on line 379
-c:\users\vladoss\source\repos\eduac\systemmanagement.cpp(400): warning C4286: 'const sql::SQLException &': is caught by base class ('const std::exception &') on line 396
+c:\users\vladoss\source\repos\eduac\systemmanagement.cpp(350): warning C4286: 'const sql::SQLException &': is caught by base class ('const std::exception &') on line 346
+c:\users\vladoss\source\repos\eduac\systemmanagement.cpp(367): warning C4286: 'const sql::SQLException &': is caught by base class ('const std::exception &') on line 363
+c:\users\vladoss\source\repos\eduac\systemmanagement.cpp(384): warning C4286: 'const sql::SQLException &': is caught by base class ('const std::exception &') on line 380
   User.cpp
 c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
-  UserSettingsForm.cpp
+  main.cpp
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
+c:\users\vladoss\source\repos\eduac\main.cpp(10): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
   Generating Code...
-  .NETFramework,Version=v4.6.1.AssemblyAttributes.cpp
   EduAc.vcxproj -> C:\Users\Vladoss\source\repos\EduAc\x64\Release\EduAc.exe

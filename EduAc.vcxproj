@@ -150,15 +150,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Absente.cpp" />
     <ClCompile Include="academic_records.cpp" />
-    <ClCompile Include="AddAbsForm.cpp" />
-    <ClCompile Include="AddAdminForm.cpp" />
     <ClCompile Include="AddCourseForm.cpp" />
     <ClCompile Include="AddDepartForm.cpp" />
     <ClCompile Include="AddGroupForm.cpp" />
     <ClCompile Include="AddGroupToCourse.cpp" />
-    <ClCompile Include="AddMarkForm.cpp" />
     <ClCompile Include="AddProfForm.cpp" />
     <ClCompile Include="AddSpecialtyForm.cpp" />
     <ClCompile Include="AddStudForm.cpp" />
@@ -177,7 +173,6 @@
     <ClCompile Include="LoginForm.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MenuForm.cpp" />
-    <ClCompile Include="Nota.cpp" />
     <ClCompile Include="Professor.cpp" />
     <ClCompile Include="ProfessorForm.cpp" />
     <ClCompile Include="Student.cpp" />
@@ -187,14 +182,7 @@
     <ClCompile Include="UserSettingsForm.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Absente.h" />
     <ClInclude Include="academic_records.h" />
-    <ClInclude Include="AddAbsForm.h">
-      <FileType>CppForm</FileType>
-    </ClInclude>
-    <ClInclude Include="AddAdminForm.h">
-      <FileType>CppForm</FileType>
-    </ClInclude>
     <ClInclude Include="AddCourseForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
@@ -205,9 +193,6 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="AddGroupToCourse.h">
-      <FileType>CppForm</FileType>
-    </ClInclude>
-    <ClInclude Include="AddMarkForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="AddProfForm.h">
@@ -252,7 +237,6 @@
     <ClInclude Include="MenuForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
-    <ClInclude Include="Nota.h" />
     <ClInclude Include="Professor.h" />
     <ClInclude Include="ProfessorForm.h">
       <FileType>CppForm</FileType>

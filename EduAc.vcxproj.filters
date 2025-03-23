@@ -18,9 +18,6 @@
     <ClCompile Include="MenuForm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Absente.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="academic_records.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -37,9 +34,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Grupa.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Nota.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Professor.cpp">
@@ -69,19 +63,10 @@
     <ClCompile Include="AddProfForm.cpp">
       <Filter>Header Files</Filter>
     </ClCompile>
-    <ClCompile Include="AddAdminForm.cpp">
-      <Filter>Header Files</Filter>
-    </ClCompile>
     <ClCompile Include="AddStudForm.cpp">
       <Filter>Header Files</Filter>
     </ClCompile>
     <ClCompile Include="AddGroupForm.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="AddMarkForm.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="AddAbsForm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="AddCourseForm.cpp">
@@ -125,9 +110,6 @@
     <ClInclude Include="MenuForm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Absente.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="academic_records.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -147,9 +129,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="IncludesCentral.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Nota.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Professor.h">
@@ -176,19 +155,10 @@
     <ClInclude Include="AddProfForm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="AddAdminForm.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="AddStudForm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="AddGroupForm.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="AddMarkForm.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="AddAbsForm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="AddCourseForm.h">
@@ -278,6 +248,9 @@
       <Filter>Resource Files</Filter>
     </EmbeddedResource>
     <EmbeddedResource Include="ProfessorForm.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentForm.resx">
       <Filter>Resource Files</Filter>
     </EmbeddedResource>
   </ItemGroup>
