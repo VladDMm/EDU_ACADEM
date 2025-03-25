@@ -33,12 +33,6 @@ Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=
 	hash=None, flags=None
 Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
 	hash=None, flags=None
-Class EduAc.AddAbsForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
-  :System.Windows.Forms.Form
-    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
-Class EduAc.AddAdminForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
-  :System.Windows.Forms.Form
-    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class EduAc.AddDepartForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(EduAc.MenuForm): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
@@ -76,9 +70,6 @@ Class EduAc.AddGroupForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
 Class EduAc.AddGroupToCourse: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(EduAc.MenuForm, System.Data.DataTable): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
-Class EduAc.AddMarkForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
-  :System.Windows.Forms.Form
-    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class EduAc.AddProfForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(EduAc.MenuForm, System.Data.DataTable): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
@@ -144,8 +135,5 @@ Class EduAc.StudentForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
     Utf8ToSystemString(basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
     convert_wstring_to_utf8(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*, basic_string<wchar_t\,std::char_traits<wchar_t>\,std::allocator<wchar_t> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
 Class EduAc.LoginForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
-  :System.Windows.Forms.Form
-    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
-Class EduAc.UserSettingsForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

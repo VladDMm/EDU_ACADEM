@@ -41,6 +41,9 @@ c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e'
 c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
   Generating Code...
   Compiling...
+  main.cpp
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
+c:\users\vladoss\source\repos\eduac\main.cpp(10): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
   MenuForm.cpp
 c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
   Professor.cpp
@@ -62,8 +65,6 @@ c:\users\vladoss\source\repos\eduac\systemmanagement.cpp(367): warning C4286: 'c
 c:\users\vladoss\source\repos\eduac\systemmanagement.cpp(384): warning C4286: 'const sql::SQLException &': is caught by base class ('const std::exception &') on line 380
   User.cpp
 c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
-  main.cpp
-c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
-c:\users\vladoss\source\repos\eduac\main.cpp(10): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
   Generating Code...
+  .NETFramework,Version=v4.6.1.AssemblyAttributes.cpp
   EduAc.vcxproj -> C:\Users\Vladoss\source\repos\EduAc\x64\Release\EduAc.exe

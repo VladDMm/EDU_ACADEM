@@ -1,11 +1,71 @@
-﻿  ProfessorForm.cpp
+﻿  AddCourseForm.cpp
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
+  AddDepartForm.cpp
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
+  AddGroupForm.cpp
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
+  AddGroupToCourse.cpp
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
+  AddProfForm.cpp
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
+  AddSpecialtyForm.cpp
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
+  AddStudForm.cpp
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
+  Admin.cpp
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
+  Catedra.cpp
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
+  Curs.cpp
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
+  DatabaseConnection.cpp
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
+c:\users\vladoss\source\repos\eduac\databaseconnection.cpp(493): warning C4101: 'e': unreferenced local variable
+  EditCourseForm.cpp
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
+  EditDepartForm.cpp
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
+  EditGroupCourse.cpp
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
+  EditGroupForm.cpp
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
+  EditProfForm.cpp
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
+  EditSpecialtyForm.cpp
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
+  EditStudentForm.cpp
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
+  Grupa.cpp
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
+  LoginForm.cpp
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
+  Generating Code...
+  Compiling...
+  main.cpp
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
+c:\users\vladoss\source\repos\eduac\main.cpp(10): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+  MenuForm.cpp
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
+  Professor.cpp
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
+  ProfessorForm.cpp
 c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
 c:\users\vladoss\source\repos\eduac\professorform.cpp(775): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
 c:\users\vladoss\source\repos\eduac\professorform.cpp(870): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Student.cpp
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
   StudentForm.cpp
 c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
 c:\users\vladoss\source\repos\eduac\studentform.cpp(341): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
 c:\users\vladoss\source\repos\eduac\studentform.cpp(416): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  SystemManagement.cpp
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
+c:\users\vladoss\source\repos\eduac\systemmanagement.cpp(350): warning C4286: 'const sql::SQLException &': is caught by base class ('const std::exception &') on line 346
+c:\users\vladoss\source\repos\eduac\systemmanagement.cpp(367): warning C4286: 'const sql::SQLException &': is caught by base class ('const std::exception &') on line 363
+c:\users\vladoss\source\repos\eduac\systemmanagement.cpp(384): warning C4286: 'const sql::SQLException &': is caught by base class ('const std::exception &') on line 380
+  User.cpp
+c:\users\vladoss\source\repos\eduac\databaseconnection.h(37): warning C4101: 'e': unreferenced local variable
   Generating Code...
-  Absente.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  .NETFramework,Version=v4.6.1.AssemblyAttributes.cpp
+  AddCourseForm.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
   EduAc.vcxproj -> C:\Users\Vladoss\source\repos\EduAc\x64\Debug\EduAc.exe
