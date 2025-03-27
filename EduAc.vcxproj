@@ -161,12 +161,15 @@
     <ClCompile Include="Catedra.cpp" />
     <ClCompile Include="Curs.cpp" />
     <ClCompile Include="DatabaseConnection.cpp" />
+    <ClCompile Include="EditAdminDataForm.cpp" />
     <ClCompile Include="EditCourseForm.cpp" />
     <ClCompile Include="EditDepartForm.cpp" />
     <ClCompile Include="EditGroupCourse.cpp" />
     <ClCompile Include="EditGroupForm.cpp" />
+    <ClCompile Include="EditProfDataForm.cpp" />
     <ClCompile Include="EditProfForm.cpp" />
     <ClCompile Include="EditSpecialtyForm.cpp" />
+    <ClCompile Include="EditStudentDataForm.cpp" />
     <ClCompile Include="EditStudentForm.cpp" />
     <ClCompile Include="Grupa.cpp" />
     <ClCompile Include="LoginForm.cpp" />
@@ -217,13 +220,22 @@
     <ClInclude Include="EditGroupForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="EditProfDataForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="EditProfForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="EditSpecialtyForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="EditStudentDataForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="EditStudentForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="EditAdminDataForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Grupa.h" />
@@ -280,6 +292,9 @@
     <EmbeddedResource Include="EditGroupForm.resx">
       <DependentUpon>EditGroupForm.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="EditProfDataForm.resx">
+      <DependentUpon>EditProfDataForm.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EditProfForm.resx">
       <DependentUpon>EditProfForm.h</DependentUpon>
     </EmbeddedResource>
@@ -288,6 +303,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="EditStudentForm.resx">
       <DependentUpon>EditStudentForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditAdminDataForm.resx">
+      <DependentUpon>EditAdminDataForm.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.h</DependentUpon>
