@@ -12,6 +12,7 @@
   EduAc.EditProfDataForm.resources - Embedded, ContainedInManifestFile, 
   EduAc.EditProfForm.resources - Embedded, ContainedInManifestFile, 
   EduAc.EditSpecialtyForm.resources - Embedded, ContainedInManifestFile, 
+  EduAc.EditStudentDataForm.resources - Embedded, ContainedInManifestFile, 
   EduAc.EditStudentForm.resources - Embedded, ContainedInManifestFile, 
   EduAc.EditAdminDataForm.resources - Embedded, ContainedInManifestFile, 
   EduAc.LoginForm.resources - Embedded, ContainedInManifestFile, 

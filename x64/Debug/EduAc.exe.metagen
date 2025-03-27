@@ -12,6 +12,7 @@
   EduAc.EditProfDataForm.resources - Embedded, ContainedInManifestFile, 
   EduAc.EditProfForm.resources - Embedded, ContainedInManifestFile, 
   EduAc.EditSpecialtyForm.resources - Embedded, ContainedInManifestFile, 
+  EduAc.EditStudentDataForm.resources - Embedded, ContainedInManifestFile, 
   EduAc.EditStudentForm.resources - Embedded, ContainedInManifestFile, 
   EduAc.EditAdminDataForm.resources - Embedded, ContainedInManifestFile, 
   EduAc.LoginForm.resources - Embedded, ContainedInManifestFile, 
@@ -44,6 +45,7 @@ Class EduAc.MenuForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   Methods:
     MakeCircularImage(Bitmap, Int32): PrivateScope, Public, HideBySig
     AddDataToUserAccount(): PrivateScope, Public, HideBySig
+    LoadDataHomePage(): PrivateScope, Public, HideBySig
     AddRowToDepartDataGridView(String, String, String): PrivateScope, Public, HideBySig
     AddRowToDepartDataGridView(): PrivateScope, Public, HideBySig
     AddRowToProfDataGridView(String, String, String, String, String, String, String, String, String): PrivateScope, Public, HideBySig
