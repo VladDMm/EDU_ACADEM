@@ -45,11 +45,10 @@ Class EduAc.MenuForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   Methods:
     MakeCircularImage(Bitmap, Int32): PrivateScope, Public, HideBySig
     AddDataToUserAccount(): PrivateScope, Public, HideBySig
+    LoadDataHomePage(): PrivateScope, Public, HideBySig
     AddRowToDepartDataGridView(String, String, String): PrivateScope, Public, HideBySig
     AddRowToDepartDataGridView(): PrivateScope, Public, HideBySig
-    AddRowToProfDataGridView(String, String, String, String, String, String, String, String, String): PrivateScope, Public, HideBySig
     AddRowToProfDataGridView(): PrivateScope, Public, HideBySig
-    AddRowToStudDataGridView(String, String, String, String, String, String, String, String, String, String): PrivateScope, Public, HideBySig
     AddRowToStudDataGridView(): PrivateScope, Public, HideBySig
     AddRowToSpecialtyDataGridView(String, String, String, String): PrivateScope, Public, HideBySig
     AddRowToSpecialtyDataGridView(): PrivateScope, Public, HideBySig

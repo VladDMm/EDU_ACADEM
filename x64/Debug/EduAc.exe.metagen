@@ -48,9 +48,7 @@ Class EduAc.MenuForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
     LoadDataHomePage(): PrivateScope, Public, HideBySig
     AddRowToDepartDataGridView(String, String, String): PrivateScope, Public, HideBySig
     AddRowToDepartDataGridView(): PrivateScope, Public, HideBySig
-    AddRowToProfDataGridView(String, String, String, String, String, String, String, String, String): PrivateScope, Public, HideBySig
     AddRowToProfDataGridView(): PrivateScope, Public, HideBySig
-    AddRowToStudDataGridView(String, String, String, String, String, String, String, String, String, String): PrivateScope, Public, HideBySig
     AddRowToStudDataGridView(): PrivateScope, Public, HideBySig
     AddRowToSpecialtyDataGridView(String, String, String, String): PrivateScope, Public, HideBySig
     AddRowToSpecialtyDataGridView(): PrivateScope, Public, HideBySig
