@@ -18,6 +18,7 @@
   EduAc.LoginForm.resources - Embedded, ContainedInManifestFile, 
   EduAc.MenuForm.resources - Embedded, ContainedInManifestFile, 
   EduAc.ProfessorForm.resources - Embedded, ContainedInManifestFile, 
+  EduAc.RaportSelectorForm.resources - Embedded, ContainedInManifestFile, 
   EduAc.StudentForm.resources - Embedded, ContainedInManifestFile, 
 ImageRuntimeVersion: v4.0.30319
 Assembly EduAc, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
@@ -148,3 +149,12 @@ Class EduAc.StudentForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
 Class EduAc.LoginForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class EduAc.RaportSelectorForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Int32, Int32, TipRaport): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Struct TipRaport: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    TipRaport Absente = 0 : Public, Static, Literal, HasDefault
+    TipRaport Reusita = 1 : Public, Static, Literal, HasDefault
